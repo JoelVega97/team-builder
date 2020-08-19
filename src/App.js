@@ -81,6 +81,7 @@ function App() {
         <h1>Team Builder App</h1>
         {/*This is where the <Form.JS is after i build it here*/}
 
+        <Form value = {values} update = {update} submit = {submit} />
 
         {
           teamMembers.map(teamMember => {
